@@ -1,7 +1,6 @@
 //Iterative
 public class SimpleFactorial{
-    
-    int n;
+    static int n;
     public static void main(String[] args) {
         int facto=1;
         n=Integer.parseInt(args[0]);
@@ -15,5 +14,4 @@ public class SimpleFactorial{
         System.out.println("Factorial of" + n + ":" +facto);
         return;
     }
-
 }

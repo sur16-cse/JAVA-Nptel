@@ -8,7 +8,7 @@ public class Circle{
         circleCount++;
     }
     public Circle(double r){
-        this(0.0,0.0,0.0,r);
+        this(0.0,0.0,r);
         circleCount++;
     }
     public Circle(Circle c){

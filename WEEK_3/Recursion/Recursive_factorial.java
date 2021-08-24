@@ -9,6 +9,6 @@ public class Recursive_factorial{
     public static void main(String[] args) {
         Recursive_factorial x= new Recursive_factorial();
         x.n=Integer.parseInt(args[0]);
-        System.out.println("Factorial of"+ n+":"+x.factorial(x.n));
+        System.out.println("Factorial of"+x.n+":"+x.factorial(x.n));
     }
 }

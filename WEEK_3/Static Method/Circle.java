@@ -1,5 +1,12 @@
 public class Circle{
     public double x,y,r;
+    Circle(){
+
+    }
+
+    Circle(double val){
+        r=val;
+    }
     //instance method
     public Circle bigger(Circle c){
         if(c.r>r) return c;
@@ -15,5 +22,7 @@ public class Circle{
         Circle b=new Circle(3.0);
         Circle c=a.bigger(b);//call of instance method
         Circle d=Circle.bigger(a,b);//Call of class method
+        System.out.println(c.r);
+        System.out.println(d.r);
     }  
 }
