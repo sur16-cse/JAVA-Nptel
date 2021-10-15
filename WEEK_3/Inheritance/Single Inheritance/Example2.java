@@ -10,7 +10,8 @@ class Person{
     }
     void printData(){
         System.out.println("Name: "+name);
-        dob.printDate();
+        System.out.println("date of birth: "+dob);
+        //dob.printDate();
         System.out.println("Mobile: "+mobileNo);
     }
 }
@@ -50,7 +51,7 @@ class Employee extends Person{
 class Example2{
    public static void main(String[] args) {
         Person p=new Person();
-        Student s=new Student[100];
-        Employee e=new Employee[50];
+        Student s[]=new Student[100];
+        Employee e[]=new Employee[50];
     }
 }
