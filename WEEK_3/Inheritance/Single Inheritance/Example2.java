@@ -1,8 +1,9 @@
+import java.util.*;
 class Person{
     String name;
     Date dob;
     int mobileNo;
-    void readData(String n,int d,int m){
+    void readData(String n,Date d,int m){
         name=n;
         dob=d;
         mobileNo=m;
@@ -27,13 +28,13 @@ class Student extends Person{
         for(int i=0;i<quali.length;i++){
             System.out.println("Marks"+i+":"+quali[i]);
         }
-        for(int i=0;i<quali.length;i++){
+        for(int i=0;i<marks.length;i++){
             System.out.println("Result"+i+":"+marks[i]);
         }
     }
 }
 
-class Employee{
+class Employee extends Person{
     int empNo;
     int[] salaryHistory=new int[12];
     String organisation;

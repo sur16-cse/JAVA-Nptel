@@ -1,5 +1,8 @@
 class Point2D{
     int x;int y;
+    Point2D(){
+
+    }
     Point2D(int a,int b){
         x=a;
         y=b;
@@ -10,6 +13,9 @@ class Point2D{
 }
 
 class Point3D extends Point2D{
+    Point3D(){
+
+    }
     int z;
     Point3D(int c){
         z=c;
@@ -23,7 +29,7 @@ class using_cast{
      public static void main(String args[]) {
         Point2D p1=new Point2D(3,-4);
         p1.display();
-        Point3D p2=new Point3D(9,2,5);
+        Point3D p2=new Point3D(7);
         p2.display();
         Point2D cast=(Point2D) p2;
         cast.display();

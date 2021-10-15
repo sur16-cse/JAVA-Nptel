@@ -1,9 +1,5 @@
 public class Circle{
     public double x,y,r;
-    Circle(){
-
-    }
-
     Circle(double val){
         r=val;
     }

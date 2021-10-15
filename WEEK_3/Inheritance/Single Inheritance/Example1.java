@@ -8,7 +8,7 @@ class Point2D{
 class Point3D extends Point2D{
     int z;
     void display(){
-        System.out.println("x="+x+" "+"y="+" "+"z="+z);
+        System.out.println("x="+x+" "+"y="+y+" "+"z="+z);
     }
 }
 
