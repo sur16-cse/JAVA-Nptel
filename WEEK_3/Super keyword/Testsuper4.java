@@ -16,18 +16,19 @@ class Point3D extends Point2D{
     Point3D(){
         super();
         z=0.0;
-        System.out.printf("%d%d%d",x,y,z);
+        System.out.printf("%f %f %f",x,y,z);
+        System.out.println();
     }
     Point3D(double x,double y,double z){
         super(x,y);
         this.z=z;
-        System.out.printf("%d%d%d",x,y,z);
+        System.out.printf("%f %f %f",x,y,z);
     }
 }
 
 class Testsuper4{
      public static void main(String args[]) {
-         Point2D q=new Point2D(4.9,9.0);
+         Point3D q=new Point3D();
         Point3D p=new Point3D(2.0,3.0,4.0);
        
     }

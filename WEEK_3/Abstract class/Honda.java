@@ -7,7 +7,9 @@ class Honda extends Bike{
         System.out.println("Running safety");
     }
    public static void main(String[] args) {
-        Bike obj=new Honda();
+        Honda obj=new Honda();
         obj.run();
+        Bike obj1=new Honda();
+        obj1.run();
     }
 }
