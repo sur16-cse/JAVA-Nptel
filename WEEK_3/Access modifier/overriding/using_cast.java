@@ -31,7 +31,8 @@ class using_cast{
         p1.display();
         Point3D p2=new Point3D(7);
         p2.display();
-        Point2D cast=(Point2D) p2;
+        //Point2D cast=p2;//implicit upcast
+        Point2D cast=(Point2D) p2;//explicit upcast
         cast.display();
     }
 }
